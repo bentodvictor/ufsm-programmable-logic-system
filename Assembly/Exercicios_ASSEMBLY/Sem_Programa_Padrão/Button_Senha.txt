@@ -1,0 +1,29 @@
+;PTA deve mostrar PTA xor [10010011] quando
+;o botão {PTC[0]} for precionado.
+;
+;
+
+    ORG RAMStart
+A   rmb 1 ;define uma var. de 1 byte
+
+    ORG ROMStart
+MAIN: clra              ;limpa o acumulador
+      MOV #$00, PTBDD   ;Porta B é saída
+      MOV #$02, PTCDD   ;Porta C é entrada, mas C[1] <- saída
+      MOV #$00, PTADD   ;Porta A é entrada
+      SEI               ;desliga interrupção
+          
+Loop:  
+      BRCLR 0, PTCDD, Loop  ;Se não apertar o botão fica sempre testando
+      
+Press:
+      LDA PTAD        ;Carrega denovo o valor da porta A
+      SUB PTBD        ;Diminui A do B
+      BNE Apaga_LED   ;Pula se deu zero
+      
+      BSET 1,PTCD     ;Liga o LED
+      JMP Loop        ;Fica em loop
+      
+Apaga_LED:
+      BCLR  1,PTCD     ;Apaga o LED
+      JMP   Loop

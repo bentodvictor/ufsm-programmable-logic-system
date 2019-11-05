@@ -1,0 +1,505 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: formigaLed.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "formigaLed.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "formigaLed"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : formigaLed
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Embarcados\Desktop\cu\vhdl\Aula11\minhoca\debounce.vhd" into library work
+Parsing entity <debounce>.
+Parsing architecture <Behavioral> of entity <debounce>.
+Parsing VHDL file "C:\Users\Embarcados\Desktop\cu\vhdl\Aula11\minhoca\minhoca.vhd" into library work
+Parsing entity <formigaLed>.
+Parsing architecture <Behavioral> of entity <formigaled>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <formigaLed> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <debounce> (architecture <Behavioral>) with generics from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <formigaLed>.
+    Related source file is "C:\Users\Embarcados\Desktop\cu\vhdl\Aula11\minhoca\minhoca.vhd".
+    Found 4-bit register for signal <controle>.
+    Found 7-bit register for signal <display>.
+    Found 25-bit register for signal <cont>.
+    Found 7-bit register for signal <m>.
+    Found 7-bit register for signal <c>.
+    Found 7-bit register for signal <d>.
+    Found 7-bit register for signal <u>.
+    Found 4-bit register for signal <state>.
+    Found 19-bit register for signal <cont_mux>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 14                                             |
+    | Transitions        | 42                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 28                                             |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | s0                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 19-bit adder for signal <cont_mux[18]_GND_3_o_add_1_OUT> created at line 36.
+    Found 25-bit adder for signal <cont[24]_GND_3_o_add_18_OUT> created at line 63.
+    Found 19-bit comparator greater for signal <cont_mux[18]_PWR_3_o_LessThan_1_o> created at line 35
+    Found 19-bit comparator greater for signal <cont_mux[18]_GND_3_o_LessThan_3_o> created at line 39
+    Found 19-bit comparator greater for signal <cont_mux[18]_GND_3_o_LessThan_4_o> created at line 42
+    Found 19-bit comparator greater for signal <cont_mux[18]_PWR_3_o_LessThan_5_o> created at line 45
+    Found 25-bit comparator greater for signal <cont[24]_PWR_3_o_LessThan_18_o> created at line 62
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  83 D-type flip-flop(s).
+	inferred   5 Comparator(s).
+	inferred   4 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <formigaLed> synthesized.
+
+Synthesizing Unit <debounce>.
+    Related source file is "C:\Users\Embarcados\Desktop\cu\vhdl\Aula11\minhoca\debounce.vhd".
+        max = 300000000
+    Found 1-bit register for signal <result>.
+    Found 29-bit register for signal <cont>.
+    Found 1-bit register for signal <botao_s>.
+    Found 29-bit adder for signal <cont[28]_GND_4_o_add_4_OUT> created at line 28.
+    Found 29-bit comparator lessequal for signal <cont[28]_PWR_4_o_LessThan_4_o> created at line 28
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  31 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <debounce> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 19-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 29-bit adder                                          : 1
+# Registers                                            : 11
+ 1-bit register                                        : 2
+ 19-bit register                                       : 1
+ 25-bit register                                       : 1
+ 29-bit register                                       : 1
+ 4-bit register                                        : 1
+ 7-bit register                                        : 5
+# Comparators                                          : 6
+ 19-bit comparator greater                             : 4
+ 25-bit comparator greater                             : 1
+ 29-bit comparator lessequal                           : 1
+# Multiplexers                                         : 5
+ 29-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 1
+ 7-bit 2-to-1 multiplexer                              : 3
+# FSMs                                                 : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <debounce>.
+The following registers are absorbed into counter <cont>: 1 register on signal <cont>.
+Unit <debounce> synthesized (advanced).
+
+Synthesizing (advanced) Unit <formigaLed>.
+The following registers are absorbed into counter <cont>: 1 register on signal <cont>.
+The following registers are absorbed into counter <cont_mux>: 1 register on signal <cont_mux>.
+Unit <formigaLed> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 19-bit adder                                          : 1
+# Counters                                             : 3
+ 19-bit up counter                                     : 1
+ 25-bit up counter                                     : 1
+ 29-bit up counter                                     : 1
+# Registers                                            : 41
+ Flip-Flops                                            : 41
+# Comparators                                          : 6
+ 19-bit comparator greater                             : 4
+ 25-bit comparator greater                             : 1
+ 29-bit comparator lessequal                           : 1
+# Multiplexers                                         : 4
+ 4-bit 2-to-1 multiplexer                              : 1
+ 7-bit 2-to-1 multiplexer                              : 3
+# FSMs                                                 : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <state[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ s0    | 0000
+ s1    | 0001
+ s2    | 0010
+ s3    | 0011
+ s4    | 0100
+ s5    | 0101
+ s6    | 0110
+ s7    | 0111
+ s8    | 1000
+ s9    | 1001
+ s10   | 1010
+ s11   | 1011
+ s12   | 1100
+ s13   | 1101
+-------------------
+WARNING:Xst:1710 - FF/Latch <m_2> (without init value) has a constant value of 1 in block <formigaLed>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <m_6> (without init value) has a constant value of 1 in block <formigaLed>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <c_0> (without init value) has a constant value of 1 in block <formigaLed>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <c_2> (without init value) has a constant value of 1 in block <formigaLed>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <c_4> (without init value) has a constant value of 1 in block <formigaLed>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <c_5> (without init value) has a constant value of 1 in block <formigaLed>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <d_2> (without init value) has a constant value of 1 in block <formigaLed>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <d_4> (without init value) has a constant value of 1 in block <formigaLed>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <d_5> (without init value) has a constant value of 1 in block <formigaLed>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <d_6> (without init value) has a constant value of 1 in block <formigaLed>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_0> (without init value) has a constant value of 1 in block <formigaLed>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_1> (without init value) has a constant value of 1 in block <formigaLed>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_4> (without init value) has a constant value of 1 in block <formigaLed>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_5> (without init value) has a constant value of 1 in block <formigaLed>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <formigaLed> ...
+
+Optimizing unit <debounce> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block formigaLed, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 104
+ Flip-Flops                                            : 104
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : formigaLed.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 398
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 89
+#      LUT2                        : 7
+#      LUT3                        : 5
+#      LUT4                        : 24
+#      LUT5                        : 20
+#      LUT6                        : 60
+#      MUXCY                       : 100
+#      VCC                         : 1
+#      XORCY                       : 87
+# FlipFlops/Latches                : 104
+#      FD                          : 37
+#      FDE                         : 21
+#      FDR                         : 44
+#      FDSE                        : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 12
+#      IBUF                        : 1
+#      OBUF                        : 11
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             104  out of  18224     0%  
+ Number of Slice LUTs:                  209  out of   9112     2%  
+    Number used as Logic:               209  out of   9112     2%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    210
+   Number with an unused Flip Flop:     106  out of    210    50%  
+   Number with an unused LUT:             1  out of    210     0%  
+   Number of fully used LUT-FF pairs:   103  out of    210    49%  
+   Number of unique control sets:         6
+
+IO Utilization: 
+ Number of IOs:                          13
+ Number of bonded IOBs:                  13  out of    232     5%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 104   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 5.589ns (Maximum Frequency: 178.923MHz)
+   Minimum input arrival time before clock: 4.730ns
+   Maximum output required time after clock: 3.634ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.589ns (frequency: 178.923MHz)
+  Total number of paths / destination ports: 11704 / 172
+-------------------------------------------------------------------------
+Delay:               5.589ns (Levels of Logic = 5)
+  Source:            u1/cont_7 (FF)
+  Destination:       u1/cont_28 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: u1/cont_7 to u1/cont_28
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.447   1.015  u1/cont_7 (u1/cont_7)
+     LUT6:I0->O            4   0.203   1.028  u1/GND_4_o_cont[28]_equal_1_o<28>2 (u1/GND_4_o_cont[28]_equal_1_o<28>1)
+     LUT5:I0->O            1   0.203   0.580  u1/GND_4_o_cont[28]_equal_1_o<28>6_1 (u1/GND_4_o_cont[28]_equal_1_o<28>6)
+     LUT3:I2->O            1   0.205   0.000  u1/Reset_OR_DriverANDClockEnable281_lut1 (u1/Reset_OR_DriverANDClockEnable281_lut1)
+     MUXCY:S->O           28   0.366   1.235  u1/Reset_OR_DriverANDClockEnable281_cy1 (u1/Reset_OR_DriverANDClockEnable)
+     LUT6:I5->O            1   0.205   0.000  u1/cont_28_rstpot (u1/cont_28_rstpot)
+     FD:D                      0.102          u1/cont_28
+    ----------------------------------------
+    Total                      5.589ns (1.731ns logic, 3.858ns route)
+                                       (31.0% logic, 69.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 59 / 31
+-------------------------------------------------------------------------
+Offset:              4.730ns (Levels of Logic = 4)
+  Source:            btn (PAD)
+  Destination:       u1/cont_28 (FF)
+  Destination Clock: clk rising
+
+  Data Path: btn to u1/cont_28
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            32   1.222   1.396  btn_IBUF (btn_IBUF)
+     LUT3:I1->O            1   0.203   0.000  u1/Reset_OR_DriverANDClockEnable281_lut1 (u1/Reset_OR_DriverANDClockEnable281_lut1)
+     MUXCY:S->O           28   0.366   1.235  u1/Reset_OR_DriverANDClockEnable281_cy1 (u1/Reset_OR_DriverANDClockEnable)
+     LUT6:I5->O            1   0.205   0.000  u1/cont_28_rstpot (u1/cont_28_rstpot)
+     FD:D                      0.102          u1/cont_28
+    ----------------------------------------
+    Total                      4.730ns (2.098ns logic, 2.632ns route)
+                                       (44.4% logic, 55.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 11 / 11
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            controle_3 (FF)
+  Destination:       controle<3> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: controle_3 to controle<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.616  controle_3 (controle_3)
+     OBUF:I->O                 2.571          controle_3_OBUF (controle<3>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.589|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.36 secs
+ 
+--> 
+
+Total memory usage is 186920 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   14 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

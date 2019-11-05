@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/CES2/CircuitoES.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/CES2/CircuitoES.syr" 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/CES2/CircuitoES.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/CES2/CircuitoES.syr" 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/CES2/CircuitoES.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/CES2/CircuitoES.syr" 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/CES2/CircuitoES.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/CES2/CircuitoES.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "CircuitoES.ngc" CircuitoES.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CircuitoES_map.ncd CircuitoES.ngd CircuitoES.pcf 
+par -w -intstyle ise -ol high -mt off CircuitoES_map.ncd CircuitoES.ncd CircuitoES.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CircuitoES.twx CircuitoES.ncd -o CircuitoES.twr CircuitoES.pcf 
+bitgen -intstyle ise -f CircuitoES.ut CircuitoES.ncd 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/CES2/CircuitoES.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/CES2/CircuitoES.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc portas.ucf -p xc6slx16-csg324-3 "CircuitoES.ngc" CircuitoES.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CircuitoES_map.ncd CircuitoES.ngd CircuitoES.pcf 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/CES2/CircuitoES.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/CES2/CircuitoES.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc portas.ucf -p xc6slx16-csg324-3 "CircuitoES.ngc" CircuitoES.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CircuitoES_map.ncd CircuitoES.ngd CircuitoES.pcf 
+par -w -intstyle ise -ol high -mt off CircuitoES_map.ncd CircuitoES.ncd CircuitoES.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CircuitoES.twx CircuitoES.ncd -o CircuitoES.twr CircuitoES.pcf -ucf portas.ucf 
+bitgen -intstyle ise -f CircuitoES.ut CircuitoES.ncd 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/CES2/CircuitoES.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/CES2/CircuitoES.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc portas.ucf -p xc6slx16-csg324-3 "CircuitoES.ngc" CircuitoES.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CircuitoES_map.ncd CircuitoES.ngd CircuitoES.pcf 
+par -w -intstyle ise -ol high -mt off CircuitoES_map.ncd CircuitoES.ncd CircuitoES.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CircuitoES.twx CircuitoES.ncd -o CircuitoES.twr CircuitoES.pcf -ucf portas.ucf 
+bitgen -intstyle ise -f CircuitoES.ut CircuitoES.ncd 

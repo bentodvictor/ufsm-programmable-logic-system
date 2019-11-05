@@ -1,0 +1,22 @@
+NET "controle[0]" LOC = N16;
+NET "controle[1]" LOC = N15;
+NET "controle[2]" LOC = P18;
+NET "controle[3]" LOC = P17;
+
+NET "display[0]" LOC = T17;
+NET "display[1]" LOC = T18;
+NET "display[2]" LOC = U17;
+NET "display[3]" LOC = U18;
+NET "display[4]" LOC = M14;
+NET "display[5]" LOC = N14;
+NET "display[6]" LOC = L14;
+
+NET "led" LOC = U16;
+
+NET "btn[0]" LOC = A8;		//A
+NET "btn[1]" LOC = C9;		//B
+NET "btn[2]" LOC = D9;		//C
+NET "btn[3]" LOC = C4;		//D
+NET "btn[4]" LOC = B8;		//E
+
+NET "clk" LOC = V10;

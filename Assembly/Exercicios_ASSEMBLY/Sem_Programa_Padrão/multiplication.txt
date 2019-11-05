@@ -1,0 +1,21 @@
+;Multiplication
+;A*9 - 7
+
+    ORG RAMStart
+A   rmb 1 ;define uma var. de 1 byte
+
+    ORG ROMStart
+MAIN: clra              ;limpa o acumulador
+      MOV #$FF, PTBDD   ;Porta B é saída
+      MOV #$00, PTADD   ;Porta A é entrada
+      SEI               ;desliga interrupção
+      
+Loop: LDA PTADD       ;Acum <= Porta A
+      STA A           ;var. A recebe acumulador
+      LDX #9          ;Carrega nove no X
+      MUL             ;X:A <= X*A 
+      SUB #7          ;A-7
+      STA PTBD        ;Porta B recebe o resultado
+      JMP Loop        ;Fica em loop
+        
+        

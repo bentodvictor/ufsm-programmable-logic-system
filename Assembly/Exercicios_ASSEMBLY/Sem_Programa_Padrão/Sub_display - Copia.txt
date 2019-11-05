@@ -1,0 +1,128 @@
+;Ler 2 valores em PTA e PTB
+;Se A>B, faz A-B.
+;Senão , faz B-A.
+;Escreve resulatado no display 7 segmentos.
+
+    ORG RAMStart
+A      rmb 1 ;define uma var. de 1 byte
+result rmb 1 ;define uma var. de 1 byte
+
+    ORG ROMStart
+MAIN: clra              ;limpa o acumulador
+      MOV #$00, PTBDD   ;Porta B é entrada
+      MOV #$FF, PTCDD   ;Porta C é saída
+      MOV #$00, PTADD   ;Porta A é entrada
+      SEI               ;desliga interrupção
+loop:  
+      LDA PTAD       ;Carrega a A
+      SUB PTBD       ;Subtrai A-B
+      BGT aMb        ;Pula se A>B
+      ;Já fez A-B, então é só salvar em result
+
+bMa:
+      LDA PTBD       ;Faz B-A
+      SUB PTAD       ;Diminui A do B
+
+aMb:
+      STA result     ;salva resultado em result
+
+subtra:
+      lda result        ;ACC <= result
+      
+      sub #10           ;Subtrai 10
+      bge *-1           ;Se a subtração for >=0, salta pra linha anterior(sub).
+      ;O nº vai estar negativo, logo tem que somar 10 pra saber qual o nº.
+      add #10           ;Soma 10    
+      sta result        ;salva resultado
+      
+      
+testeDisplay:
+n9:      
+      lda result  ;ACC<=result
+      sub #9      ;ACC<=ACC-9
+      bne n8      ;Se não deu zero testa o oito,senão desenha nove
+           ;abcdefg.
+      lda #%11110110   ;Desenha 9 no display
+      sta PTCD
+      jmp loop
+      
+n8:
+      lda result  ;ACC<=result
+      sub #8      ;ACC<=ACC-8
+      bne n7      ;Se não deu zero testa o 7,senão desenha oito
+           ;abcdefg
+      lda #%11111110   ;Desenha 8 no display
+      sta PTCD
+      jmp loop 
+      
+n7:
+      lda result  ;ACC<=result
+      sub #7      ;ACC<=ACC-7
+      bne n6      ;Se não deu zero testa o 6,senão desenha 7
+           ;abcdefg.
+      lda #%11100100   ;Desenha 7 no display
+      sta PTCD
+      jmp loop
+      
+n6:
+      lda result  ;ACC<=result
+      sub #6      ;ACC<=ACC-6
+      bne n5      ;Se não deu zero testa o 5,senão desenha 6
+           ;abcdefg.
+      lda #%10111110   ;Desenha 6 no display
+      sta PTCD
+      jmp loop
+           
+n5:
+      lda result  ;ACC<=result
+      sub #5      ;ACC<=ACC-5
+      bne n4      ;Se não deu zero testa o 4,senão desenha 5
+           ;abcdefg.
+      lda #%10110110   ;Desenha 5 no display
+      sta PTCD
+      jmp loop
+                 
+n4:
+      lda result  ;ACC<=result
+      sub #4      ;ACC<=ACC-4
+      bne n3      ;Se não deu zero testa o 3,senão desenha 4
+           ;abcdefg.
+      lda #%01100110   ;Desenha 8 no display
+      sta PTCD
+      jmp loop
+                 
+n3:
+      lda result  ;ACC<=result
+      sub #3      ;ACC<=ACC-3
+      bne n2      ;Se não deu zero testa o 2,senão desenha 3
+           ;abcdefg.
+      lda #%11110010   ;Desenha 3 no display
+      sta PTCD
+      jmp loop
+                 
+n2:
+      lda result  ;ACC<=result
+      sub #2      ;ACC<=ACC-2
+      bne n1      ;Se não deu zero testa o 1,senão desenha 2
+           ;abcdefg.
+      lda #%11011010   ;Desenha 2 no display
+      sta PTCD
+      jmp loop
+                 
+n1:
+      lda result  ;ACC<=result
+      sub #1      ;ACC<=ACC-1
+      bne n0      ;Se não deu zero desenha 0,senão desenha 1
+           ;abcdefg.
+      lda #%01100000   ;Desenha 1 no display
+      sta PTCD
+      jmp loop
+                 
+n0:
+           ;abcdefg
+      lda #%11111100   ;Desenha 0 no display
+      sta PTCD
+      jmp loop
+      
+      
+      

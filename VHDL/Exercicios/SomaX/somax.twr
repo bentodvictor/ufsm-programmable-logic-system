@@ -1,0 +1,108 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml somax.twx somax.ncd -o somax.twr somax.pcf -ucf
+Display_placa.ucf
+
+Design file:              somax.ncd
+Physical constraint file: somax.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+x<0>           |display<0>     |    9.258|
+x<0>           |display<1>     |    9.069|
+x<0>           |display<2>     |    9.248|
+x<0>           |display<3>     |    8.911|
+x<0>           |display<4>     |    9.123|
+x<0>           |display<5>     |    8.953|
+x<0>           |display<6>     |    9.298|
+x<1>           |display<0>     |    9.044|
+x<1>           |display<1>     |    8.530|
+x<1>           |display<2>     |    8.713|
+x<1>           |display<3>     |    8.372|
+x<1>           |display<4>     |    8.584|
+x<1>           |display<5>     |    8.414|
+x<1>           |display<6>     |    8.759|
+x<2>           |display<0>     |    8.710|
+x<2>           |display<1>     |    8.521|
+x<2>           |display<2>     |    8.700|
+x<2>           |display<3>     |    8.363|
+x<2>           |display<4>     |    8.575|
+x<2>           |display<5>     |    8.405|
+x<2>           |display<6>     |    8.750|
+x<3>           |display<0>     |    8.995|
+x<3>           |display<1>     |    8.806|
+x<3>           |display<2>     |    8.985|
+x<3>           |display<3>     |    8.648|
+x<3>           |display<4>     |    8.860|
+x<3>           |display<5>     |    8.690|
+x<3>           |display<6>     |    9.035|
+y<0>           |display<0>     |    8.895|
+y<0>           |display<1>     |    8.706|
+y<0>           |display<2>     |    8.885|
+y<0>           |display<3>     |    8.548|
+y<0>           |display<4>     |    8.775|
+y<0>           |display<5>     |    8.642|
+y<0>           |display<6>     |    8.935|
+y<1>           |display<0>     |    8.878|
+y<1>           |display<1>     |    8.599|
+y<1>           |display<2>     |    8.778|
+y<1>           |display<3>     |    8.441|
+y<1>           |display<4>     |    8.653|
+y<1>           |display<5>     |    8.483|
+y<1>           |display<6>     |    8.828|
+y<2>           |display<0>     |    9.186|
+y<2>           |display<1>     |    8.997|
+y<2>           |display<2>     |    9.176|
+y<2>           |display<3>     |    8.839|
+y<2>           |display<4>     |    9.051|
+y<2>           |display<5>     |    8.881|
+y<2>           |display<6>     |    9.226|
+y<3>           |display<0>     |    8.586|
+y<3>           |display<1>     |    8.397|
+y<3>           |display<2>     |    8.576|
+y<3>           |display<3>     |    8.239|
+y<3>           |display<4>     |    8.451|
+y<3>           |display<5>     |    8.281|
+y<3>           |display<6>     |    8.626|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Aug 29 10:02:20 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 218 MB
+
+
+

@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/SomaX/somax.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/SomaX/somax.syr" 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/SomaX/somax.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/SomaX/somax.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Display_placa.ucf -p xc6slx16-csg324-3 "somax.ngc" somax.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Display_placa.ucf -p xc6slx16-csg324-3 "somax.ngc" somax.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o somax_map.ncd somax.ngd somax.pcf 
+par -w -intstyle ise -ol high -mt off somax_map.ncd somax.ncd somax.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml somax.twx somax.ncd -o somax.twr somax.pcf -ucf Display_placa.ucf 
+bitgen -intstyle ise -f somax.ut somax.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Display_placa.ucf -p xc6slx16-csg324-3 "somax.ngc" somax.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o somax_map.ncd somax.ngd somax.pcf 
+par -w -intstyle ise -ol high -mt off somax_map.ncd somax.ncd somax.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml somax.twx somax.ncd -o somax.twr somax.pcf -ucf Display_placa.ucf 
+bitgen -intstyle ise -f somax.ut somax.ncd 

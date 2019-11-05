@@ -1,0 +1,59 @@
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Display1.ngc" Display1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display1_map.ncd Display1.ngd Display1.pcf 
+par -w -intstyle ise -ol high -mt off Display1_map.ncd Display1.ncd Display1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Display1.twx Display1.ncd -o Display1.twr Display1.pcf 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Display1.ngc" Display1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display1_map.ncd Display1.ngd Display1.pcf 
+par -w -intstyle ise -ol high -mt off Display1_map.ncd Display1.ncd Display1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Display1.twx Display1.ncd -o Display1.twr Display1.pcf 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Display1.ngc" Display1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display1_map.ncd Display1.ngd Display1.pcf 
+par -w -intstyle ise -ol high -mt off Display1_map.ncd Display1.ncd Display1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Display1.twx Display1.ncd -o Display1.twr Display1.pcf 
+bitgen -intstyle ise -f Display1.ut Display1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Display1.ucf -p xc6slx16-csg324-3 "Display1.ngc" Display1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display1_map.ncd Display1.ngd Display1.pcf 
+par -w -intstyle ise -ol high -mt off Display1_map.ncd Display1.ncd Display1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Display1.twx Display1.ncd -o Display1.twr Display1.pcf -ucf Display1.ucf 
+bitgen -intstyle ise -f Display1.ut Display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Display1.ucf -p xc6slx16-csg324-3 "Display1.ngc" Display1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display1_map.ncd Display1.ngd Display1.pcf 
+par -w -intstyle ise -ol high -mt off Display1_map.ncd Display1.ncd Display1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Display1.twx Display1.ncd -o Display1.twr Display1.pcf -ucf Display1.ucf 
+bitgen -intstyle ise -f Display1.ut Display1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Display1.ucf -p xc6slx16-csg324-3 "Display1.ngc" Display1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display1_map.ncd Display1.ngd Display1.pcf 
+par -w -intstyle ise -ol high -mt off Display1_map.ncd Display1.ncd Display1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Display1.twx Display1.ncd -o Display1.twr Display1.pcf -ucf Display1.ucf 
+bitgen -intstyle ise -f Display1.ut Display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.syr" 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Display1.ucf -p xc6slx16-csg324-3 "Display1.ngc" Display1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display1_map.ncd Display1.ngd Display1.pcf 
+par -w -intstyle ise -ol high -mt off Display1_map.ncd Display1.ncd Display1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Display1.twx Display1.ncd -o Display1.twr Display1.pcf -ucf Display1.ucf 
+bitgen -intstyle ise -f Display1.ut Display1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Display1.ucf -p xc6slx16-csg324-3 "Display1.ngc" Display1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display1_map.ncd Display1.ngd Display1.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Display1.ucf -p xc6slx16-csg324-3 "Display1.ngc" Display1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display1_map.ncd Display1.ngd Display1.pcf 
+par -w -intstyle ise -ol high -mt off Display1_map.ncd Display1.ncd Display1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Display1.twx Display1.ncd -o Display1.twr Display1.pcf -ucf Display1.ucf 
+bitgen -intstyle ise -f Display1.ut Display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.syr" 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Display1.ucf -p xc6slx16-csg324-3 "Display1.ngc" Display1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display1_map.ncd Display1.ngd Display1.pcf 
+par -w -intstyle ise -ol high -mt off Display1_map.ncd Display1.ncd Display1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Display1.twx Display1.ncd -o Display1.twr Display1.pcf -ucf Display1.ucf 
+bitgen -intstyle ise -f Display1.ut Display1.ncd 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Display1.ucf -p xc6slx16-csg324-3 "Display1.ngc" Display1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display1_map.ncd Display1.ngd Display1.pcf 
+par -w -intstyle ise -ol high -mt off Display1_map.ncd Display1.ncd Display1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Display1.twx Display1.ncd -o Display1.twr Display1.pcf -ucf Display1.ucf 
+bitgen -intstyle ise -f Display1.ut Display1.ncd 

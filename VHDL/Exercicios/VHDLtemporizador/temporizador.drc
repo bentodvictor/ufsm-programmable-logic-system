@@ -1,0 +1,17 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Sep 28 09:47:52 2017
+
+drc -z Temporizador.ncd Temporizador.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cont_c[19]_PWR_3_o_LessThan_1_o is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   cont_mux[18]_PWR_3_o_LessThan_17_o is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

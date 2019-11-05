@@ -1,0 +1,26 @@
+;Add de 16 its
+;Ch:Cl  <= [Ah:Al] + [Bh:Bl]
+
+    ORG RAMStart
+A   rmb 1 ;define uma var. de 1 byte
+
+    ORG ROMStart
+MAIN: clra              ;limpa o acumulador
+      STA PTADD         ;Entradas
+      STA PTBDD
+      STA PTCDD
+      STA PTDDD
+      LDA #$FF
+      STA PTEDD         ;Saidas
+      STA PTFDD
+      SEI               ;desliga interrupção
+      
+Loop: LDA PTBD      ;Acum <= Porta Al
+      ADD PTDD      ;Acum <= Al + Bl
+      STA PTFD      ;Cl = Al + Bl
+      LDA PTAD      ;Acum <= Porta Ah
+      ADC PTCD      ;Acum <= Ah + Bh + [Carry da soma anterior]
+      STA PTED      ;Ch <= Ah + Bh + carry
+      
+      JMP Loop        ;Fica em loop
+        

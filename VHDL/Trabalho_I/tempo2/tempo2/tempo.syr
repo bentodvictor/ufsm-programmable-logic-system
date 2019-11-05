@@ -1,0 +1,688 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.30 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.30 secs
+ 
+--> Reading design: tempo.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "tempo.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "tempo"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : tempo
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Windows7Starter\Desktop\Trabalho_Baggio\tempo2_Quase\tempo2\debounce2.vhd" into library work
+Parsing entity <debounce2>.
+Parsing architecture <Behavioral> of entity <debounce2>.
+Parsing VHDL file "C:\Users\Windows7Starter\Desktop\Trabalho_Baggio\tempo2_Quase\tempo2\debounce.vhd" into library work
+Parsing entity <debounce>.
+Parsing architecture <Behavioral> of entity <debounce>.
+Parsing VHDL file "C:\Users\Windows7Starter\Desktop\Trabalho_Baggio\tempo2_Quase\tempo2\tempo.vhd" into library work
+Parsing entity <tempo>.
+Parsing architecture <Behavioral> of entity <tempo>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <tempo> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <debounce> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <debounce2> (architecture <Behavioral>) with generics from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <tempo>.
+    Related source file is "C:\Users\Windows7Starter\Desktop\Trabalho_Baggio\tempo2_Quase\tempo2\tempo.vhd".
+    Found 1-bit register for signal <led>.
+    Found 4-bit register for signal <c>.
+    Found 4-bit register for signal <d>.
+    Found 4-bit register for signal <s1>.
+    Found 4-bit register for signal <s2>.
+    Found 27-bit register for signal <conts>.
+    Found 19-bit register for signal <cont_mux>.
+    Found 4-bit register for signal <controle>.
+    Found 4-bit register for signal <controlaDisp>.
+    Found 20-bit register for signal <contc>.
+    Found 20-bit adder for signal <contc[19]_GND_3_o_add_1_OUT> created at line 45.
+    Found 4-bit adder for signal <c[3]_GND_3_o_add_2_OUT> created at line 51.
+    Found 4-bit adder for signal <d[3]_GND_3_o_add_4_OUT> created at line 54.
+    Found 4-bit adder for signal <s1[3]_GND_3_o_add_6_OUT> created at line 56.
+    Found 4-bit adder for signal <s2[3]_GND_3_o_add_8_OUT> created at line 60.
+    Found 27-bit adder for signal <conts[26]_GND_3_o_add_69_OUT> created at line 105.
+    Found 27-bit adder for signal <GND_3_o_GND_3_o_add_89_OUT> created at line 133.
+    Found 19-bit adder for signal <cont_mux[18]_GND_3_o_add_111_OUT> created at line 160.
+    Found 4-bit subtractor for signal <GND_3_o_GND_3_o_sub_32_OUT<3:0>> created at line 74.
+    Found 4-bit subtractor for signal <GND_3_o_GND_3_o_sub_34_OUT<3:0>> created at line 78.
+    Found 4-bit subtractor for signal <GND_3_o_GND_3_o_sub_36_OUT<3:0>> created at line 82.
+    Found 4-bit subtractor for signal <GND_3_o_GND_3_o_sub_38_OUT<3:0>> created at line 86.
+    Found 16x7-bit Read Only RAM for signal <display>
+    Found 20-bit comparator greater for signal <contc[19]_PWR_3_o_LessThan_1_o> created at line 44
+    Found 27-bit comparator greater for signal <conts[26]_PWR_3_o_LessThan_69_o> created at line 104
+    Found 4-bit comparator greater for signal <s1[3]_PWR_3_o_LessThan_71_o> created at line 110
+    Found 27-bit comparator greater for signal <GND_3_o_PWR_3_o_LessThan_89_o> created at line 132
+    Found 19-bit comparator greater for signal <cont_mux[18]_PWR_3_o_LessThan_111_o> created at line 159
+    Found 19-bit comparator greater for signal <cont_mux[18]_GND_3_o_LessThan_113_o> created at line 161
+    Found 19-bit comparator greater for signal <cont_mux[18]_GND_3_o_LessThan_114_o> created at line 164
+    Found 19-bit comparator greater for signal <cont_mux[18]_PWR_3_o_LessThan_115_o> created at line 167
+    Summary:
+	inferred   1 RAM(s).
+	inferred  12 Adder/Subtractor(s).
+	inferred  91 D-type flip-flop(s).
+	inferred   8 Comparator(s).
+	inferred 192 Multiplexer(s).
+Unit <tempo> synthesized.
+
+Synthesizing Unit <debounce>.
+    Related source file is "C:\Users\Windows7Starter\Desktop\Trabalho_Baggio\tempo2_Quase\tempo2\debounce.vhd".
+        max = 300000000
+    Found 1-bit register for signal <result>.
+    Found 29-bit register for signal <cont>.
+    Found 1-bit register for signal <botao_s>.
+    Found 29-bit adder for signal <cont[28]_GND_4_o_add_4_OUT> created at line 26.
+    Found 29-bit comparator lessequal for signal <cont[28]_PWR_4_o_LessThan_4_o> created at line 25
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  31 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <debounce> synthesized.
+
+Synthesizing Unit <debounce2>.
+    Related source file is "C:\Users\Windows7Starter\Desktop\Trabalho_Baggio\tempo2_Quase\tempo2\debounce2.vhd".
+        max = 1000000
+    Found 1-bit register for signal <result>.
+    Found 20-bit register for signal <cont>.
+    Found 1-bit register for signal <botao_s>.
+    Found 20-bit adder for signal <cont[19]_GND_5_o_add_4_OUT> created at line 26.
+    Found 20-bit comparator lessequal for signal <cont[19]_PWR_5_o_LessThan_4_o> created at line 25
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <debounce2> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x7-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 17
+ 19-bit adder                                          : 1
+ 20-bit adder                                          : 2
+ 27-bit adder                                          : 2
+ 29-bit adder                                          : 4
+ 4-bit adder                                           : 4
+ 4-bit subtractor                                      : 4
+# Registers                                            : 25
+ 1-bit register                                        : 11
+ 19-bit register                                       : 1
+ 20-bit register                                       : 2
+ 27-bit register                                       : 1
+ 29-bit register                                       : 4
+ 4-bit register                                        : 6
+# Comparators                                          : 13
+ 19-bit comparator greater                             : 4
+ 20-bit comparator greater                             : 1
+ 20-bit comparator lessequal                           : 1
+ 27-bit comparator greater                             : 2
+ 29-bit comparator lessequal                           : 4
+ 4-bit comparator greater                              : 1
+# Multiplexers                                         : 192
+ 1-bit 2-to-1 multiplexer                              : 5
+ 27-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 186
+# Xors                                                 : 5
+ 1-bit xor2                                            : 5
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <u1> is unconnected in block <tempo>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <u2> is unconnected in block <tempo>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <u3> is unconnected in block <tempo>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <u4> is unconnected in block <tempo>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <u5> is unconnected in block <tempo>.
+   It will be removed from the design.
+
+Synthesizing (advanced) Unit <debounce>.
+The following registers are absorbed into counter <cont>: 1 register on signal <cont>.
+Unit <debounce> synthesized (advanced).
+
+Synthesizing (advanced) Unit <debounce2>.
+The following registers are absorbed into counter <cont>: 1 register on signal <cont>.
+Unit <debounce2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <tempo>.
+The following registers are absorbed into counter <cont_mux>: 1 register on signal <cont_mux>.
+The following registers are absorbed into counter <contc>: 1 register on signal <contc>.
+INFO:Xst:3231 - The small RAM <Mram_display> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 7-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <controlaDisp>  |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <display>       |          |
+    -----------------------------------------------------------------------
+Unit <tempo> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x7-bit single-port distributed Read Only RAM        : 1
+# Adders/Subtractors                                   : 11
+ 19-bit adder                                          : 1
+ 27-bit adder                                          : 2
+ 4-bit adder                                           : 4
+ 4-bit subtractor                                      : 4
+# Counters                                             : 7
+ 19-bit up counter                                     : 1
+ 20-bit up counter                                     : 2
+ 29-bit up counter                                     : 4
+# Registers                                            : 62
+ Flip-Flops                                            : 62
+# Comparators                                          : 13
+ 19-bit comparator greater                             : 4
+ 20-bit comparator greater                             : 1
+ 20-bit comparator lessequal                           : 1
+ 27-bit comparator greater                             : 2
+ 29-bit comparator lessequal                           : 4
+ 4-bit comparator greater                              : 1
+# Multiplexers                                         : 192
+ 1-bit 2-to-1 multiplexer                              : 5
+ 27-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 186
+# Xors                                                 : 5
+ 1-bit xor2                                            : 5
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <tempo> ...
+
+Optimizing unit <debounce> ...
+
+Optimizing unit <debounce2> ...
+WARNING:Xst:2677 - Node <u5/cont_0> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_28> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_27> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_26> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_25> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_24> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_23> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_22> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_21> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_20> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_19> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_18> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_17> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_16> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_15> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_14> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_13> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_12> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_11> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_10> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_9> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_8> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_7> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_6> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_5> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_4> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_3> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_2> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/cont_1> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/result> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u5/botao_s> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_0> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_28> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_27> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_26> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_25> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_24> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_23> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_22> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_21> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_20> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_19> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_18> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_17> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_16> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_15> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_14> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_13> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_12> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_11> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_10> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_9> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_8> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_7> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_6> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_5> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_4> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_3> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_2> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/cont_1> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/result> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u4/botao_s> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_0> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_28> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_27> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_26> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_25> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_24> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_23> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_22> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_21> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_20> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_19> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_18> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_17> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_16> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_15> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_14> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_13> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_12> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_11> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_10> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_9> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_8> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_7> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_6> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_5> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_4> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_3> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_2> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/cont_1> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/result> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u2/botao_s> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_0> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_28> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_27> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_26> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_25> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_24> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_23> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_22> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_21> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_20> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_19> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_18> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_17> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_16> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_15> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_14> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_13> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_12> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_11> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_10> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_9> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_8> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_7> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_6> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_5> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_4> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_3> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_2> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/cont_1> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/result> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u1/botao_s> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_0> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_19> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_18> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_16> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_15> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_17> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_13> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_12> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_14> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_10> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_9> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_11> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_7> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_6> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_8> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_4> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_3> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_5> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_1> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/cont_2> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/result> of sequential type is unconnected in block <tempo>.
+WARNING:Xst:2677 - Node <u3/botao_s> of sequential type is unconnected in block <tempo>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block tempo, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 91
+ Flip-Flops                                            : 91
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : tempo.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 538
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 81
+#      LUT2                        : 60
+#      LUT3                        : 9
+#      LUT4                        : 39
+#      LUT5                        : 31
+#      LUT6                        : 85
+#      MUXCY                       : 107
+#      MUXF7                       : 13
+#      VCC                         : 1
+#      XORCY                       : 107
+# FlipFlops/Latches                : 91
+#      FD                          : 23
+#      FDE                         : 4
+#      FDR                         : 45
+#      FDRE                        : 16
+#      FDSE                        : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 17
+#      IBUF                        : 5
+#      OBUF                        : 12
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              91  out of  18224     0%  
+ Number of Slice LUTs:                  309  out of   9112     3%  
+    Number used as Logic:               309  out of   9112     3%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    310
+   Number with an unused Flip Flop:     219  out of    310    70%  
+   Number with an unused LUT:             1  out of    310     0%  
+   Number of fully used LUT-FF pairs:    90  out of    310    29%  
+   Number of unique control sets:        11
+
+IO Utilization: 
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    232     7%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 91    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 7.132ns (Maximum Frequency: 140.220MHz)
+   Minimum input arrival time before clock: 7.057ns
+   Maximum output required time after clock: 4.821ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 7.132ns (frequency: 140.220MHz)
+  Total number of paths / destination ports: 64031 / 177
+-------------------------------------------------------------------------
+Delay:               7.132ns (Levels of Logic = 7)
+  Source:            conts_23 (FF)
+  Destination:       s2_2 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: conts_23 to s2_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.447   0.961  conts_23 (conts_23)
+     LUT5:I0->O            3   0.203   0.879  conts[26]_PWR_3_o_LessThan_69_o31 (conts[26]_PWR_3_o_LessThan_69_o3)
+     LUT6:I3->O            5   0.205   0.715  conts[26]_PWR_3_o_LessThan_69_o34_1 (conts[26]_PWR_3_o_LessThan_69_o34)
+     LUT2:I1->O           13   0.205   1.180  Mmux_n024461 (n0244<14>)
+     LUT6:I2->O            1   0.203   0.684  GND_3_o_PWR_3_o_LessThan_89_o34_SW1_G (N93)
+     LUT6:I4->O            1   0.203   0.000  Mmux_s2[3]_s2[3]_mux_103_OUT36_F (N120)
+     MUXF7:I0->O           1   0.131   0.808  Mmux_s2[3]_s2[3]_mux_103_OUT36 (Mmux_s2[3]_s2[3]_mux_103_OUT36)
+     LUT6:I3->O            1   0.205   0.000  Mmux_s2[3]_s2[3]_mux_103_OUT37 (s2[3]_s2[3]_mux_103_OUT<2>)
+     FDRE:D                    0.102          s2_2
+    ----------------------------------------
+    Total                      7.132ns (1.904ns logic, 5.228ns route)
+                                       (26.7% logic, 73.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 226 / 47
+-------------------------------------------------------------------------
+Offset:              7.057ns (Levels of Logic = 6)
+  Source:            btn<2> (PAD)
+  Destination:       s2_3 (FF)
+  Destination Clock: clk rising
+
+  Data Path: btn<2> to s2_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            21   1.222   1.478  btn_2_IBUF (btn_2_IBUF)
+     LUT6:I0->O           15   0.203   1.210  btn<2>321 (btn<2>32)
+     LUT6:I3->O            1   0.205   0.580  Mmux_s2[3]_s2[3]_mux_103_OUT44_SW0 (N88)
+     LUT6:I5->O            2   0.205   0.617  Mmux_s2[3]_s2[3]_mux_103_OUT44 (Mmux_s2[3]_s2[3]_mux_103_OUT43)
+     LUT6:I5->O            1   0.205   0.827  Mmux_s2[3]_s2[3]_mux_103_OUT46_SW1 (N66)
+     LUT6:I2->O            1   0.203   0.000  s2_3_rstpot (s2_3_rstpot)
+     FD:D                      0.102          s2_3
+    ----------------------------------------
+    Total                      7.057ns (2.345ns logic, 4.712ns route)
+                                       (33.2% logic, 66.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 33 / 12
+-------------------------------------------------------------------------
+Offset:              4.821ns (Levels of Logic = 2)
+  Source:            controlaDisp_3 (FF)
+  Destination:       display<6> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: controlaDisp_3 to display<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              7   0.447   1.021  controlaDisp_3 (controlaDisp_3)
+     LUT4:I0->O            1   0.203   0.579  Mram_display51 (display_5_OBUF)
+     OBUF:I->O                 2.571          display_5_OBUF (display<5>)
+    ----------------------------------------
+    Total                      4.821ns (3.221ns logic, 1.600ns route)
+                                       (66.8% logic, 33.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    7.132|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 26.00 secs
+Total CPU time to Xst completion: 25.17 secs
+ 
+--> 
+
+Total memory usage is 186280 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  151 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

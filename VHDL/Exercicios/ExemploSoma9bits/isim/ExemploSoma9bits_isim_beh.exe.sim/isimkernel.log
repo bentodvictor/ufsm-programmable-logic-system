@@ -1,0 +1,28 @@
+Command line:
+   ExemploSoma9bits_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49913
+
+Tue Aug 22 09:07:30 2017
+
+
+ Elaboration Time: 0.109201 sec
+
+ Current Memory Usage: 671.683 Meg
+
+ Total Signals          : 3
+ Total Nets             : 13
+ Total Signal Drivers   : 1
+ Total Blocks           : 3
+ Total Primitive Blocks : 3
+ Total Processes        : 1
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 391
+
+ Total Simulation Time: 0.140401 sec
+
+ Current Memory Usage: 671.683 Meg
+
+Tue Aug 22 09:16:19 2017
+

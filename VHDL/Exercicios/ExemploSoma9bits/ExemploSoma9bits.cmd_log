@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/ExemploSoma9bits/ExemploSoma9bits.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/ExemploSoma9bits/ExemploSoma9bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "ExemploSoma9bits.ngc" ExemploSoma9bits.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ExemploSoma9bits_map.ncd ExemploSoma9bits.ngd ExemploSoma9bits.pcf 
+par -w -intstyle ise -ol high -mt off ExemploSoma9bits_map.ncd ExemploSoma9bits.ncd ExemploSoma9bits.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ExemploSoma9bits.twx ExemploSoma9bits.ncd -o ExemploSoma9bits.twr ExemploSoma9bits.pcf 
+bitgen -intstyle ise -f ExemploSoma9bits.ut ExemploSoma9bits.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "ExemploSoma9bits.ngc" ExemploSoma9bits.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ExemploSoma9bits_map.ncd ExemploSoma9bits.ngd ExemploSoma9bits.pcf 
+par -w -intstyle ise -ol high -mt off ExemploSoma9bits_map.ncd ExemploSoma9bits.ncd ExemploSoma9bits.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ExemploSoma9bits.twx ExemploSoma9bits.ncd -o ExemploSoma9bits.twr ExemploSoma9bits.pcf 
+bitgen -intstyle ise -f ExemploSoma9bits.ut ExemploSoma9bits.ncd 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/ExemploSoma9bits/ExemploSoma9bits.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/ExemploSoma9bits/ExemploSoma9bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ExemploSoma9bitsCircuito.ucf -p xc6slx16-csg324-3 "ExemploSoma9bits.ngc" ExemploSoma9bits.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ExemploSoma9bits_map.ncd ExemploSoma9bits.ngd ExemploSoma9bits.pcf 
+par -w -intstyle ise -ol high -mt off ExemploSoma9bits_map.ncd ExemploSoma9bits.ncd ExemploSoma9bits.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ExemploSoma9bits.twx ExemploSoma9bits.ncd -o ExemploSoma9bits.twr ExemploSoma9bits.pcf -ucf ExemploSoma9bitsCircuito.ucf 
+bitgen -intstyle ise -f ExemploSoma9bits.ut ExemploSoma9bits.ncd 

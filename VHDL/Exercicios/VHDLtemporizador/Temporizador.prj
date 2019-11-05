@@ -1,0 +1,2 @@
+vhdl work "../displaycomarquivo/disp.vhd"
+vhdl work "Temporizador.vhd"

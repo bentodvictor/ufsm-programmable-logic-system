@@ -1,0 +1,75 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Display1.twx Display1.ncd -o Display1.twr Display1.pcf
+-ucf Display1.ucf
+
+Design file:              Display1.ncd
+Physical constraint file: Display1.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+cont<0>     |         8.642(R)|      SLOW  |         4.689(R)|      FAST  |clk_BUFGP         |   0.000|
+cont<1>     |         9.041(R)|      SLOW  |         4.994(R)|      FAST  |clk_BUFGP         |   0.000|
+cont<2>     |         8.304(R)|      SLOW  |         4.459(R)|      FAST  |clk_BUFGP         |   0.000|
+controle<0> |         8.187(R)|      SLOW  |         4.272(R)|      FAST  |clk_BUFGP         |   0.000|
+controle<1> |         8.422(R)|      SLOW  |         4.420(R)|      FAST  |clk_BUFGP         |   0.000|
+controle<2> |         8.308(R)|      SLOW  |         4.336(R)|      FAST  |clk_BUFGP         |   0.000|
+controle<3> |         8.522(R)|      SLOW  |         4.481(R)|      FAST  |clk_BUFGP         |   0.000|
+display<0>  |         9.424(R)|      SLOW  |         4.974(R)|      FAST  |clk_BUFGP         |   0.000|
+display<1>  |         9.135(R)|      SLOW  |         4.760(R)|      FAST  |clk_BUFGP         |   0.000|
+display<2>  |         8.859(R)|      SLOW  |         4.565(R)|      FAST  |clk_BUFGP         |   0.000|
+display<3>  |         8.849(R)|      SLOW  |         4.636(R)|      FAST  |clk_BUFGP         |   0.000|
+display<4>  |         8.946(R)|      SLOW  |         4.611(R)|      FAST  |clk_BUFGP         |   0.000|
+display<5>  |         8.987(R)|      SLOW  |         4.644(R)|      FAST  |clk_BUFGP         |   0.000|
+display<6>  |         8.919(R)|      SLOW  |         4.659(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.295|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Thu Aug 24 10:17:05 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 219 MB
+
+
+

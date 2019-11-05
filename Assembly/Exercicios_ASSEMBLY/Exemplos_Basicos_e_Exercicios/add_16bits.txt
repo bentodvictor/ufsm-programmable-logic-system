@@ -1,0 +1,26 @@
+﻿;Efetuar uma soma de 16 its
+;Ch:Cl  <= [Ah:Al] + [Bh:Bl]
+
+    ORG RAMStart
+A   rmb 1 		;define uma var. de 1 byte
+
+    ORG ROMStart
+MAIN: clra              ;limpa o acumulador
+      STA PTADD         ;Entradas(0)
+      STA PTBDD
+      STA PTCDD
+      STA PTDDD
+      LDA #$FF		;Carrega -1 no acumulador
+      STA PTEDD         ;Saidas(-1)
+      STA PTFDD
+      SEI               ;desliga interrupção
+      
+Loop: LDA PTBD      ;Acum <= Porta Al	carrega parte baixa de A
+      ADD PTDD      ;Acum <= Al + Bl	soma com parte baixa de B
+      STA PTFD      ;Cl = Al + Bl 	salva na parte baixa de C
+      LDA PTAD      ;Acum <= Porta Ah	carrega parte alta de A
+      ADC PTCD      ;Acum <= Ah + Bh + [Carry da soma anterior]	
+      STA PTED      ;Ch <= Ah + Bh + carry
+      
+      JMP Loop        ;Fica em loop
+        

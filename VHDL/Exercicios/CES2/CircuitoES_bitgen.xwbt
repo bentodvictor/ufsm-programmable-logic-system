@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Keli Tauana\Documents\SLP\CES2\CircuitoES.ncd
+OUTFILE=C:\Users\Keli Tauana\Documents\SLP\CES2\CircuitoES.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Keli Tauana\Documents\SLP\CES2
+LICENSE=WebPack
+USER_INFO=__0_0_0

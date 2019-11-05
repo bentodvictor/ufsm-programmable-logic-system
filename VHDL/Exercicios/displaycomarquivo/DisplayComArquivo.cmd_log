@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/displaycomarquivo/DisplayComArquivo.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/displaycomarquivo/DisplayComArquivo.syr" 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/displaycomarquivo/DisplayComArquivo.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/displaycomarquivo/DisplayComArquivo.syr" 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/displaycomarquivo/DisplayComArquivo.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/displaycomarquivo/DisplayComArquivo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "DisplayComArquivo.ngc" DisplayComArquivo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DisplayComArquivo_map.ncd DisplayComArquivo.ngd DisplayComArquivo.pcf 
+par -w -intstyle ise -ol high -mt off DisplayComArquivo_map.ncd DisplayComArquivo.ncd DisplayComArquivo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DisplayComArquivo.twx DisplayComArquivo.ncd -o DisplayComArquivo.twr DisplayComArquivo.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "DisplayComArquivo.ngc" DisplayComArquivo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DisplayComArquivo_map.ncd DisplayComArquivo.ngd DisplayComArquivo.pcf 
+par -w -intstyle ise -ol high -mt off DisplayComArquivo_map.ncd DisplayComArquivo.ncd DisplayComArquivo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DisplayComArquivo.twx DisplayComArquivo.ncd -o DisplayComArquivo.twr DisplayComArquivo.pcf 
+bitgen -intstyle ise -f DisplayComArquivo.ut DisplayComArquivo.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Display_placa.ucf -p xc6slx16-csg324-3 "DisplayComArquivo.ngc" DisplayComArquivo.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Display_placa.ucf -p xc6slx16-csg324-3 "DisplayComArquivo.ngc" DisplayComArquivo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DisplayComArquivo_map.ncd DisplayComArquivo.ngd DisplayComArquivo.pcf 
+par -w -intstyle ise -ol high -mt off DisplayComArquivo_map.ncd DisplayComArquivo.ncd DisplayComArquivo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DisplayComArquivo.twx DisplayComArquivo.ncd -o DisplayComArquivo.twr DisplayComArquivo.pcf -ucf Display_placa.ucf 
+bitgen -intstyle ise -f DisplayComArquivo.ut DisplayComArquivo.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Display_placa.ucf -p xc6slx16-csg324-3 "DisplayComArquivo.ngc" DisplayComArquivo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DisplayComArquivo_map.ncd DisplayComArquivo.ngd DisplayComArquivo.pcf 
+par -w -intstyle ise -ol high -mt off DisplayComArquivo_map.ncd DisplayComArquivo.ncd DisplayComArquivo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DisplayComArquivo.twx DisplayComArquivo.ncd -o DisplayComArquivo.twr DisplayComArquivo.pcf -ucf Display_placa.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Display_placa.ucf -p xc6slx16-csg324-3 "DisplayComArquivo.ngc" DisplayComArquivo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DisplayComArquivo_map.ncd DisplayComArquivo.ngd DisplayComArquivo.pcf 
+par -w -intstyle ise -ol high -mt off DisplayComArquivo_map.ncd DisplayComArquivo.ncd DisplayComArquivo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DisplayComArquivo.twx DisplayComArquivo.ncd -o DisplayComArquivo.twr DisplayComArquivo.pcf -ucf Display_placa.ucf 
+bitgen -intstyle ise -f DisplayComArquivo.ut DisplayComArquivo.ncd 

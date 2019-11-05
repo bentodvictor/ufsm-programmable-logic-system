@@ -1,0 +1,39 @@
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.syr" 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.syr" 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.ucf" -p xc6slx16-csg324-3 "formigaLed.ngc" formigaLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o formigaLed_map.ncd formigaLed.ngd formigaLed.pcf 
+par -w -intstyle ise -ol high -mt off formigaLed_map.ncd formigaLed.ncd formigaLed.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml formigaLed.twx formigaLed.ncd -o formigaLed.twr formigaLed.pcf 
+bitgen -intstyle ise -f formigaLed.ut formigaLed.ncd 
+bitgen -intstyle ise -f formigaLed.ut formigaLed.ncd 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.ucf" -p xc6slx16-csg324-3 "formigaLed.ngc" formigaLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o formigaLed_map.ncd formigaLed.ngd formigaLed.pcf 
+par -w -intstyle ise -ol high -mt off formigaLed_map.ncd formigaLed.ncd formigaLed.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml formigaLed.twx formigaLed.ncd -o formigaLed.twr formigaLed.pcf 
+bitgen -intstyle ise -f formigaLed.ut formigaLed.ncd 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.ucf" -p xc6slx16-csg324-3 "formigaLed.ngc" formigaLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o formigaLed_map.ncd formigaLed.ngd formigaLed.pcf 
+par -w -intstyle ise -ol high -mt off formigaLed_map.ncd formigaLed.ncd formigaLed.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml formigaLed.twx formigaLed.ncd -o formigaLed.twr formigaLed.pcf 
+bitgen -intstyle ise -f formigaLed.ut formigaLed.ncd 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.ucf" -p xc6slx16-csg324-3 "formigaLed.ngc" formigaLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o formigaLed_map.ncd formigaLed.ngd formigaLed.pcf 
+par -w -intstyle ise -ol high -mt off formigaLed_map.ncd formigaLed.ncd formigaLed.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml formigaLed.twx formigaLed.ncd -o formigaLed.twr formigaLed.pcf 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.ucf" -p xc6slx16-csg324-3 "formigaLed.ngc" formigaLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o formigaLed_map.ncd formigaLed.ngd formigaLed.pcf 
+par -w -intstyle ise -ol high -mt off formigaLed_map.ncd formigaLed.ncd formigaLed.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml formigaLed.twx formigaLed.ncd -o formigaLed.twr formigaLed.pcf 
+bitgen -intstyle ise -f formigaLed.ut formigaLed.ncd 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.syr" 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/Formiga/formigaLed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.ucf" -p xc6slx16-csg324-3 "formigaLed.ngc" formigaLed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o formigaLed_map.ncd formigaLed.ngd formigaLed.pcf 
+par -w -intstyle ise -ol high -mt off formigaLed_map.ncd formigaLed.ncd formigaLed.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml formigaLed.twx formigaLed.ncd -o formigaLed.twr formigaLed.pcf 
+bitgen -intstyle ise -f formigaLed.ut formigaLed.ncd 

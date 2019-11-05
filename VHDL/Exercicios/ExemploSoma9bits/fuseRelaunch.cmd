@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Keli Tauana/Documents/SLP/ExemploSoma9bits/ExemploSoma9bits_isim_beh.exe" -prj "C:/Users/Keli Tauana/Documents/SLP/ExemploSoma9bits/ExemploSoma9bits_beh.prj" "work.ExemploSoma9bits" 

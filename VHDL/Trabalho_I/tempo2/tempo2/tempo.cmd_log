@@ -1,0 +1,1051 @@
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I tempo.ngc tempo.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I tempo.ngc tempo.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I tempo.ngc tempo.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xa7a100t-csg324-2I tempo.ngc tempo.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/tempo/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo/tempo.xst" -ofn "F:/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Embarcados/Desktop/tempo/tempo.xst" -ofn "C:/Users/Embarcados/Desktop/tempo/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "F:/tempo2/tempo.xst" -ofn "F:/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.syr" 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 
+xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.xst" -ofn "C:/Users/Windows7Starter/Desktop/Trabalho_Baggio/tempo2_Quase/tempo2/tempo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinos.ucf -p xc6slx16-csg324-3 tempo.ngc tempo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o tempo_map.ncd tempo.ngd tempo.pcf 
+par -w -intstyle ise -ol high -mt off tempo_map.ncd tempo.ncd tempo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml tempo.twx tempo.ncd -o tempo.twr tempo.pcf -ucf pinos.ucf 
+bitgen -intstyle ise -f tempo.ut tempo.ncd 

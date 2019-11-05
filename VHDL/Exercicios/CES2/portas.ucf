@@ -1,0 +1,10 @@
+
+
+NET "c0" loc = 'T5';
+NET "c1" loc = 'V8';
+
+NET "e0" loc = 'T9';
+NET "e1" loc = 'T10';
+
+NET "s0" loc = 'V16';
+NET "s1" loc = 'U16';
