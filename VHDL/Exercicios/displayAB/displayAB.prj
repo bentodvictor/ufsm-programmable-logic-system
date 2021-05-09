@@ -1,0 +1,2 @@
+vhdl work "../SomaX/disp.vhd"
+vhdl work "displayAB.vhd"

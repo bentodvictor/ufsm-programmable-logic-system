@@ -1,0 +1,41 @@
+Release 14.7 ngdbuild P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 minhoca.ngc minhoca.ngd
+
+Reading NGO file "C:/Users/Windows7Starter/Desktop/minhoca/minhoca/minhoca.ngc"
+...
+Loading design module
+"C:\Users\Windows7Starter\Desktop\minhoca\minhoca/minhoca.ngc"...
+WARNING:NgdBuild:578 - Design contains no instances.
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+ERROR:NgdBuild:605 - logical root block 'minhoca' with type 'minhoca' is
+   unexpanded. Symbol 'minhoca' is not supported in target 'spartan6'.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     1
+  Number of warnings:   1
+
+Total memory usage is 119960 kilobytes
+
+Total REAL time to NGDBUILD completion:  12 sec
+Total CPU time to NGDBUILD completion:   7 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "minhoca.bld"...

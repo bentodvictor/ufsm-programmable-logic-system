@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\Windows7Starter\Desktop\Trabalho_Baggio\tempo2_Quase\tempo2\tempo.ncd
-OUTFILE=C:\Users\Windows7Starter\Desktop\Trabalho_Baggio\tempo2_Quase\tempo2\tempo.bit
-FAMILY=Spartan6
-PART=xc6slx16-3csg324
-WORKINGDIR=C:\Users\Windows7Starter\Desktop\Trabalho_Baggio\tempo2_Quase\tempo2
-LICENSE=WebPack
-USER_INFO=__0_0_0

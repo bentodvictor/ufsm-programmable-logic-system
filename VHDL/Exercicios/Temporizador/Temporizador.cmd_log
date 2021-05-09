@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/VHDLtemporizador/Temporizador.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/VHDLtemporizador/Temporizador.syr" 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/VHDLtemporizador/Temporizador.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/VHDLtemporizador/Temporizador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Temporizador.ngc" Temporizador.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Temporizador_map.ncd Temporizador.ngd Temporizador.pcf 
+par -w -intstyle ise -ol high -mt off Temporizador_map.ncd Temporizador.ncd Temporizador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Temporizador.twx Temporizador.ncd -o Temporizador.twr Temporizador.pcf 
+bitgen -intstyle ise -f Temporizador.ut Temporizador.ncd 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/VHDLtemporizador/Temporizador.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/VHDLtemporizador/Temporizador.syr" 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/VHDLtemporizador/Temporizador.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/VHDLtemporizador/Temporizador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Temporizador.ngc" Temporizador.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Temporizador_map.ncd Temporizador.ngd Temporizador.pcf 
+par -w -intstyle ise -ol high -mt off Temporizador_map.ncd Temporizador.ncd Temporizador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Temporizador.twx Temporizador.ncd -o Temporizador.twr Temporizador.pcf 
+bitgen -intstyle ise -f Temporizador.ut Temporizador.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.ucf" -p xc6slx16-csg324-3 "Temporizador.ngc" Temporizador.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Temporizador_map.ncd Temporizador.ngd Temporizador.pcf 
+par -w -intstyle ise -ol high -mt off Temporizador_map.ncd Temporizador.ncd Temporizador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Temporizador.twx Temporizador.ncd -o Temporizador.twr Temporizador.pcf 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/VHDLtemporizador/Temporizador.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/VHDLtemporizador/Temporizador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Keli Tauana/Documents/SLP/Display1/Display1.ucf" -p xc6slx16-csg324-3 "Temporizador.ngc" Temporizador.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Temporizador_map.ncd Temporizador.ngd Temporizador.pcf 
+par -w -intstyle ise -ol high -mt off Temporizador_map.ncd Temporizador.ncd Temporizador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Temporizador.twx Temporizador.ncd -o Temporizador.twr Temporizador.pcf 
+bitgen -intstyle ise -f Temporizador.ut Temporizador.ncd 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/VHDLtemporizador/Temporizador.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/VHDLtemporizador/Temporizador.syr" 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/VHDLtemporizador/Temporizador.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/VHDLtemporizador/Temporizador.syr" 
+xst -intstyle ise -ifn "C:/Users/Keli Tauana/Documents/SLP/VHDLtemporizador/Temporizador.xst" -ofn "C:/Users/Keli Tauana/Documents/SLP/VHDLtemporizador/Temporizador.syr" 

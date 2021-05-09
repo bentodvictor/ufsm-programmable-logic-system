@@ -1,2 +1,0 @@
-xst -intstyle ise -ifn "C:/Users/Windows7Starter/Desktop/minhoca/minhoca/minhoca.xst" -ofn "C:/Users/Windows7Starter/Desktop/minhoca/minhoca/minhoca.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 minhoca.ngc minhoca.ngd  
